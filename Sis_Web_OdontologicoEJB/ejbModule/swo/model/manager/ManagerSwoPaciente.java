@@ -16,14 +16,14 @@ import swo.model.entities.SwoPaciente;
  */
 @Stateless
 @LocalBean
-public class ManagerPaciente {
+public class ManagerSwoPaciente {
 @PersistenceContext
 private EntityManager em;
 
     /**
      * Default constructor. 
      */
-    public ManagerPaciente() {
+    public ManagerSwoPaciente() {
         // TODO Auto-generated constructor stub
     }
  // Método que retorna la lista de  la tabla Pacientes

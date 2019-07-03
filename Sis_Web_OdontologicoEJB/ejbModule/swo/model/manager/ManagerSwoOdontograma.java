@@ -18,13 +18,13 @@ import swo.model.entities.SwoOdontograma;
  */
 @Stateless
 @LocalBean
-public class ManagerOdontograma {
+public class ManagerSwoOdontograma {
 @PersistenceContext
 private EntityManager em;
     /**
      * Default constructor. 
      */
-    public ManagerOdontograma() {
+    public ManagerSwoOdontograma() {
         // TODO Auto-generated constructor stub
     }
     

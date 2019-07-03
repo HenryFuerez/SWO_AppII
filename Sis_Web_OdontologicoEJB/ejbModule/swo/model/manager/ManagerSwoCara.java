@@ -16,13 +16,13 @@ import swo.model.entities.SwoDiente;
  */
 @Stateless
 @LocalBean
-public class ManagerCara {
+public class ManagerSwoCara {
 	@PersistenceContext
 	private EntityManager em;
     /**
      * Default constructor. 
      */
-    public ManagerCara() {
+    public ManagerSwoCara() {
         // TODO Auto-generated constructor stub
     }
     // Método que retorna la lista de  la tabla Cara

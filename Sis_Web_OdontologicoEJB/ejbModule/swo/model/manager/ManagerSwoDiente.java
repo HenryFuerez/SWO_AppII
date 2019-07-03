@@ -16,14 +16,14 @@ import swo.model.entities.SwoDiente;
  */
 @Stateless
 @LocalBean
-public class ManagerDiente {
+public class ManagerSwoDiente {
 @PersistenceContext
 private EntityManager em;
 	
     /**
      * Default constructor. 
      */
-    public ManagerDiente() {
+    public ManagerSwoDiente() {
    
     	
     }
